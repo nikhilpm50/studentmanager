@@ -1,0 +1,33 @@
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: #323232;
+}
+.students1 {
+  color: #323232;
+  padding-left: 41%;
+  margin-top: -34px;
+}
+.detailss {
+  box-shadow: 1px 1px 4px 1px grey;
+  margin: 10px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  color: #323232;
+  width: 219px;
+  float: left;
+  margin-left: 100px;
+  margin-top: 38px;
+}
+.deta {
+  padding-left: 94px;
+}
+.fa-home {
+  margin-left: 188px;
+  margin-top: 75px;
+  color: #1661be;
+}
+.newicon {
+  padding-left: 153px;
+}

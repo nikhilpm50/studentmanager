@@ -1,0 +1,88 @@
+.class-det {
+  padding-left: 21.5%;
+  margin-top: -26px;
+}
+.details-cls {
+  box-shadow: 1px 1px 4px 1px grey;
+  margin: 10px;
+  padding: 13px;
+  justify-content: center;
+  align-items: center;
+  color: #323232;
+  width: 219px;
+  margin-left: 265px;
+  margin-top: 16px;
+}
+.ass-cls {
+  padding-left: 55%;
+  margin-top: -217px;
+}
+.sel-cls {
+  margin-top: 0.8em;
+  width: 17em;
+  height: 2.4em;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  padding: 5px;
+  border: 1px solid #4195fc;
+  border-radius: 4px;
+  box-shadow: 0px 0px 4px #4195fc;
+}
+.btn {
+  display: block;
+  font-size: 1rem;
+  /* margin-left: auto; */
+  padding: 0.3rem 1.5em;
+  background-color: #1661be;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+.btn-div {
+  margin-top: 9px;
+}
+.assi-cls {
+  padding-left: 55%;
+  margin-top: -154px;
+}
+.msgs-cls {
+  margin-top: 157px;
+  padding-left: 261px;
+}
+.sub-cls {
+  margin-top: -20px;
+  padding-left: 421px;
+}
+.msg-cls {
+  margin-top: 90px;
+  padding-left: 259px;
+}
+.stu-cls {
+  padding-left: 422px;
+  margin-top: -21px;
+}
+.btn2 {
+  display: block;
+  font-size: 0.8rem;
+  /* margin-left: auto; */
+  padding: 0.2rem 0.6em;
+  background-color: #1661be;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+.btn-div1 {
+  padding-left: 479px;
+  margin-top: 6px;
+}
+.logo-cls {
+  margin-top: -5px;
+  padding-left: 98px;
+}
