@@ -3,49 +3,47 @@
   height: 60px;
   background-color: #323232;
 }
-.logo {
-  color: white;
-  padding-left: 20px;
-}
 .fa-user-graduate {
-  padding-left: 22.5%;
-  display: flex;
   color: #1661be;
   cursor: pointer;
-}
-
-.class_icon {
-  margin-top: -108px;
 }
 .fa-book-reader {
-  padding-left: 45%;
   color: #1661be;
   cursor: pointer;
+  float: left;
 }
 .fa-chalkboard-teacher {
-  padding-left: 67.5%;
   color: #1661be;
   cursor: pointer;
+  float: left;
 }
-
-.icon {
-  margin-top: 103px;
+.sub {
+  padding-left: 45%;
+  width: fit-content;
+  margin-top: -110px;
 }
-.sub_icon {
-  margin-top: -111px;
+.stud {
+  padding-left: 25%;
+  width: fit-content;
+  margin-top: 154px;
 }
-.stu_title {
-  padding-left: 22%;
-  margin-top: 18px;
+.class {
+  width: fit-content;
+  padding-left: 65%;
+}
+.stud-h {
+  margin-top: 129px;
+  padding-left: 321px;
   color: #323232;
 }
-.sub_title {
-  padding-left: 45.5%;
+.sub-h {
+  padding-left: 45%;
   margin-top: -25px;
   color: #323232;
 }
-.cla_title {
-  padding-left: 68.5%;
+.class-h {
+  padding-left: 65%;
+  /* margin-bottom: -33px; */
   margin-top: -25px;
   color: #323232;
 }
