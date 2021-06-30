@@ -2,48 +2,45 @@ import React from 'react'
 import './Home.css'
 import {Link} from 'react-router-dom'
 
+
 function Home() {
+  
+    
+
     return (
-        <div >
+        <div>
+          <div className="header">
+
+          </div>  
+          <div className='stud'>
+              <Link to='/students'>
+          <i class="fas fa-user-graduate fa-7x"></i></Link>
+         
+          
+          </div>
+          <div className='sub'>
+              <Link to='/subjects'>
+          <i class="fas fa-book-reader fa-7x"></i></Link>
+          
+          </div>
+            <div className='class'>
+                <Link to='/classroom'>
+            <i class="fas fa-chalkboard-teacher fa-7x"></i></Link>
             
-            <div className="header">
-                <div className="logo">
-              <h1 className='logo'></h1></div>
             </div>
-            
-            <div className="icon">
-                
-             <i class="fas fa-user-graduate fa-7x"></i>
-               
-              
-             <div className='sub_icon'>
-                 
-             <i class="fas fa-book-reader fa-7x"></i>
-
-             </div>
-
-
-             <div className='class_icon'>
-                
-               <i class="fas fa-chalkboard-teacher fa-7x"></i>
-             </div>
-            <div>  
-                <Link to='/students' style={{textDecoration:'none'}}>
-            <h3 className='stu_title'>Students List</h3></Link>
-            </div>
-            </div>
-            <div>
-                 <Link to='/subjects'style={{textDecoration:'none'}} >
-                <h3 className="sub_title">
-                    Subject List
-                </h3></Link>
-            </div>
-            <div>
-                <Link to='/classroom'style={{textDecoration:'none'}} >
-                <h3 className="cla_title">Classroom List</h3></Link>
-            </div>
-        </div>
+            <h3 className="stud-h">
+                Student Details
+            </h3>
+            <h3 className="sub-h">
+                Subject Details
+            </h3>
+            <h3 className="class-h">
+                Classroom Details
+            </h3>
+           </div>
     )
 }
 
 export default Home
+               
+         
